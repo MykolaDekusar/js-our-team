@@ -52,6 +52,9 @@ for (let i = 0; i < ourTeam.length; i++) {
     card.classList.add('card');
     row.append(card);
 
+    //creating a img element with src of ourTeam array.image and injecting it inside the card element
+    card.innerHTML = `<img src ="./img/${ourTeam[i].image}">`;
+
     //creating a h2 element for each member and injecting the name in each h2
     const memberName = document.createElement('h2');
     memberName.innerText += ourTeam[i].name;
@@ -61,11 +64,4 @@ for (let i = 0; i < ourTeam.length; i++) {
     const memberRole = document.createElement('p');
     memberRole.innerText += ourTeam[i].role;
     card.append(memberRole);
-
-    //creating a p element for each member and injecting the role in each p
-    const memberPhoto = document.createElement('p');
-    memberPhoto.innerText += ourTeam[i].image;
-    card.append(memberPhoto);
-
-
 }

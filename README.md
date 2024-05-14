@@ -14,8 +14,6 @@ Organizzare i singoli membri in card/schede
 
 *****************RISOLVO**********************
 
-*****************RISOLVO**********************
-
 - MILESTONE 0:
 --- Creo un array che contiene tanti oggetti quanti i membri del team
 
@@ -28,3 +26,13 @@ Organizzare i singoli membri in card/schede
 ----Poi creo un elemento h2 al quale assegno il valore di .nome
 -----Creo un elemento p al quale assegno il valore di .role 
 ------Infine creo un elemento p al quale assegno il valore di .image
+
+- BONUS 1:
+---Scrivo una stringa interpolata img con il nostro array[i].image e la inserisco dento l'html di card
+
+- BONUS 2:
+---Creo un elemento div al quale assegno una classe "card" che ho stilizzato nel css
+----Appendo l'elemento div al row che è presente nel DOM
+-----Successivamente ci inietto l'img con il src presente nel nostro array object
+------Creo un elemento h2 al quale assegno il valore di stringa dell'array ourTeam[i].name e lo appendo alla card
+-------Infine creo un elemento p al quale assegno il valore di ourTeam[i].role e lo appendo alla card
