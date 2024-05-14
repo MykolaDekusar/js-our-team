@@ -12,5 +12,11 @@ Trasformare la stringa foto in una immagine effettiva
 - BONUS 2:
 Organizzare i singoli membri in card/schede
 
+*****************RISOLVO**********************
+
 - MILESTONE 0:
----Creo un array che contiene tanti oggetti quanti i membri del team
+--- Creo un array che contiene tanti oggetti quanti i membri del team
+
+- MILESTONE 1:
+--- Creo un ciclo for della lunghezza del mio array
+----All'interno del ciclo creo un console.log con la posizione dell'oggetto nel mio array e  la proprietà .nome , .role, .image
