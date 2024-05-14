@@ -14,6 +14,8 @@ Organizzare i singoli membri in card/schede
 
 *****************RISOLVO**********************
 
+*****************RISOLVO**********************
+
 - MILESTONE 0:
 --- Creo un array che contiene tanti oggetti quanti i membri del team
 
