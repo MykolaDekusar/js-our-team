@@ -39,4 +39,7 @@ const ourTeam = [
 
 ]
 
-console.log(ourTeam[0].image);
+
+for (let i = 0; i < ourTeam.length; i++) {
+    console.log(`${ourTeam[i].name}, ${ourTeam[i].role}, ${ourTeam[i].image}`)
+}
