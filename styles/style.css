@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* main setup */
+body {
+    background-color: bisque;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main .row {
+    margin-top: 5rem;
+}
+
+
+/* utilities */
+h1 {
+    padding: 2rem 0;
+    font-size: 5rem;
+}
+
+.container p {
+    font-size: 1.5rem;
+}
+
+/* card settings */
+.card {
+    width: calc(100% / 3 - 13.4px);
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
