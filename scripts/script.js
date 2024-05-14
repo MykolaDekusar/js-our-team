@@ -38,7 +38,6 @@ const ourTeam = [
         role: 'Graphic Designer',
         image: 'barbara-ramos-graphic-designer.jpg'
     }
-
 ]
 
 
@@ -57,11 +56,11 @@ for (let i = 0; i < ourTeam.length; i++) {
 
     //creating a h2 element for each member and injecting the name in each h2
     const memberName = document.createElement('h2');
-    memberName.innerText += ourTeam[i].name;
+    memberName.innerText = ourTeam[i].name;
     card.append(memberName);
 
     //creating a p element for each member and injecting the role in each p
     const memberRole = document.createElement('p');
-    memberRole.innerText += ourTeam[i].role;
+    memberRole.innerText = ourTeam[i].role;
     card.append(memberRole);
 }
