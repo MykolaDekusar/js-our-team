@@ -9,6 +9,7 @@
 /* main setup */
 body {
     background-color: bisque;
+    padding: 2rem;
 }
 
 .container {
@@ -23,7 +24,8 @@ body {
 }
 
 main .row {
-    margin-top: 5rem;
+    margin-top: 2rem;
+
 }
 
 /* utilities */
@@ -51,7 +53,7 @@ h1 {
     background-color: white;
     border-radius: 20px;
     color: rgb(110, 95, 76);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 /* img setting */
@@ -59,4 +61,32 @@ img {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        max-width: 850px;
+    }
+
+    .card {
+        width: calc(100% / 2 - 11px);
+        background-color: white;
+        border-radius: 20px;
+        color: rgb(110, 95, 76);
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .card {
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        color: rgb(110, 95, 76);
+        margin-bottom: 2rem;
+    }
 }
