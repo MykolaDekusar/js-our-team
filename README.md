@@ -20,3 +20,9 @@ Organizzare i singoli membri in card/schede
 - MILESTONE 1:
 --- Creo un ciclo for della lunghezza del mio array
 ----All'interno del ciclo creo un console.log con la posizione dell'oggetto nel mio array e  la proprietà .nome , .role, .image
+
+- MILESTONE 2:
+---Dentro il ciclo for creo un elemento div al quale assegno la classe card
+----Poi creo un elemento h2 al quale assegno il valore di .nome
+-----Creo un elemento p al quale assegno il valore di .role 
+------Infine creo un elemento p al quale assegno il valore di .image
